@@ -1,6 +1,11 @@
 package com.restEmp.employee.entities;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Employee {
+	@Id
 	private long empId;
 	private String empName;
 	private String empDesignation;
